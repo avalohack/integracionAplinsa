@@ -1,0 +1,36 @@
+{
+    "name": "avalohack/integracionAplinsa",
+    "type": "library",
+    "description": "pruab avalohack",
+    "homepage": "https://vacasenvuelo.com",
+    "keywords": [
+        "web service",
+        "core"
+    ],
+    "support": {
+        "issues": "https://github.com/avalohack/integracionAplinsa/issues",
+        "source": "https://github.com/avalohack/integracionAplinsa"
+    },
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "valohack",
+            "email": "info@vacasenvuelo.com",
+            "homepage": "https://vacasenvuelo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "avalohack\\integracionAplinsa\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "avalohack\\integracionAplinsa\\": "tests/"
+        }
+    }
+}
